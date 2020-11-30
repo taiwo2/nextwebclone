@@ -1,0 +1,123 @@
+.hard-fork-container {
+    width: 70%;
+    height: 850px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.hf-box {
+    width: 25%;
+    height: 100%;
+    flex: 1;
+}
+
+.hf-box h2 {
+    color: red;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.img-container {
+    height: 35%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-description {
+    padding-left: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.large-text {
+    font-size: 20px;
+}
+
+.small-text {
+    font-size: 13px;
+    color: #b8b6b2;
+}
+
+.img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/jack-dorsey.png);
+    background-size: cover;
+}
+
+.img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/snapchat.png);
+    background-size: cover;
+}
+
+.img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/dogs.png);
+    background-size: cover;
+}
+
+.img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/pc-mobile.png);
+    background-size: cover;
+}
+
+.img-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/graphic-d.png);
+    background-size: cover;
+}
+
+.img-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/google-pic.png);
+    background-size: cover;
+}
+
+.img-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/money.png);
+    background-size: cover;
+}
+
+.img-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/presenter.png);
+    background-size: cover;
+}
+
+.img-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(pictures/president.png);
+    background-size: cover;
+}
+
+.la-container {
+    background-color: #f8cbd7;
+    margin: 0 10px;
+    height: 150px;
+    display: flex;
+}
+
+.la-text {
+    color: red;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.list-container {
+    height: 355px;
+    margin: 0 10px;
+}
+
+.list-container ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.list-container ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list-container ul hr {
+    border-top: 0.5px solid lightgrey;
+}
