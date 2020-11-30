@@ -1,0 +1,7 @@
+.more li {
+  display: inline;
+  margin-inline: 5px;
+}
+.more {
+  margin-left: -40px;
+}
