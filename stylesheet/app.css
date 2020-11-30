@@ -1,75 +1,63 @@
-<<<<<<< HEAD
-
-=======
 .left-nav li {
-    display: inline;
-    font-size: 16px;
-    padding: 3px;
-
+  display: inline;
+  font-size: 16px;
+  padding: 3px;
 }
 
 .right-nav li {
-    display: inline;
-    font-size: 16px;
-    padding: 3px;
+  display: inline;
+  font-size: 16px;
+  padding: 3px;
 }
 
 .right-nav a,
 .left-nav a {
-    text-decoration: none;
-    color: #b8b6b2;
+  text-decoration: none;
+  color: #b8b6b2;
 }
 
 #logo {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .left-nav ul {
-    padding: 0 10px;
-    margin: 5px 0;
-
+  padding: 0 10px;
+  margin: 5px 0;
 }
 
 .right-nav ul {
-    padding: 0 10px;
-    margin: 5px 0;
+  padding: 0 10px;
+  margin: 5px 0;
 }
 
 .first-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 2em;
-    background: black;
-
+  display: flex;
+  justify-content: space-between;
+  height: 2em;
+  background: black;
 }
 
 .second-nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .second-nav ul {
-    margin: 20px 5px;
-    padding: 0;
+  margin: 20px 5px;
+  padding: 0;
 }
 
 .second-nav li {
-    list-style: none;
-    display: inline;
-    padding: 0 10px;
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
 }
 
 .second-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #aaa;
-    font-weight: 500;
-    letter-spacing: .04em;
-<<<<<<< HEAD
-
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
->>>>>>> 49ca8ee6e579ea5356f192cc6b5961a36a1f7948
-=======
-}
->>>>>>> 217f3475263725bf4c0f6b7982909018ab41ec1a
