@@ -2,7 +2,7 @@
     display: inline;
     font-size: 16px;
     padding: 3px;
-    
+
 }
 
 .right-nav li {
@@ -11,7 +11,8 @@
     padding: 3px;
 }
 
-.right-nav a, .left-nav a {
+.right-nav a,
+.left-nav a {
     text-decoration: none;
     color: #b8b6b2;
 }
@@ -23,8 +24,8 @@
 
 .left-nav ul {
     padding: 0 10px;
-    margin: 5px 0; 
-    
+    margin: 5px 0;
+
 }
 
 .right-nav ul {
@@ -37,16 +38,30 @@
     justify-content: space-between;
     height: 2em;
     background: black;
-    
+
 }
 
 .second-nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid purple;
+}
+
+.second-nav ul {
+    margin: 20px 5px;
+    padding: 0;
 }
 
 .second-nav li {
     list-style: none;
     display: inline;
+    padding: 0 10px;
+}
+
+.second-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: 500;
+    letter-spacing: .04em;
+
 }
