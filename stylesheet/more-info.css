@@ -1,7 +1,11 @@
 .more li {
   display: inline;
   margin-inline: 5px;
+  font-size: 20px;
+  font-weight: 24px;
+  color: red;
 }
+
 .more {
   margin-left: -40px;
 }
