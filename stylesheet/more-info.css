@@ -1,4 +1,4 @@
-.more li {
+.more {
   display: inline;
   margin-inline: 5px;
   font-size: 20px;
@@ -8,4 +8,85 @@
 
 .more {
   margin-left: -40px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  width: 60%;
+  column-gap: 17px;
+  margin-left: 20px;
+  padding-left: 12px;
+}
+.head {
+  font-size: 50px;
+  font-weight: 23px;
+  background-color: rgba(255, 0, 0, 0.309);
+  margin-top: auto;
+  text-align: center;
+  border-bottom: red 1px solid;
+}
+.head-2 {
+  margin-top: -60px;
+  text-align: center;
+  font-size: 30px;
+  /* background-blend-mode: overlay; */
+  background-color: royalblue;
+}
+
+.h5 {
+  margin-top: -40px;
+}
+.info {
+  background-color: rgba(255, 0, 0, 0.309);
+}
+
+.foot {
+  margin: 100px auto auto 400px;
+  padding-top: 10px;
+}
+
+.foot ul {
+  display: flex;
+  align-items: center;
+}
+
+.foot li {
+  display: flex;
+  margin-left: 60px;
+  border: 9px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.foot-event {
+  margin-left: 480px;
+}
+
+.foot-event ul {
+  display: inline-flex;
+  /* justify-content: space-between; */
+}
+.foot-event li {
+  display: flex;
+  margin-left: 20px;
+  color: white;
+
+  /* border-radius: 50%; */
+}
+
+.footer {
+  background-color: black;
+  padding-top: -12px;
+  height: 150px;
+}
+.foot-event1 {
+  margin: auto auto 8px 350px;
+}
+
+.foot-even {
+  background-color: rgba(0, 0, 0, 0.453);
+  margin-top: -20px;
+  height: 120px;
+  padding-top: 50px;
 }
