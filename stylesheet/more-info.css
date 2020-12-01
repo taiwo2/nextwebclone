@@ -1,13 +1,24 @@
-.more {
+.more li {
   display: inline;
   margin-inline: 5px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 24px;
   color: red;
+}
+.fa {
+  height: 20px;
+  margin-left: 12px;
+  /* color: red; */
 }
 
 .more {
   margin-left: -40px;
+}
+
+.more-info-head {
+  font-size: 3em;
+  display: flex;
+  color: red;
 }
 
 .info-grid {
@@ -39,10 +50,16 @@
 }
 .info {
   background-color: rgba(255, 0, 0, 0.309);
+  margin-top: -1px;
+}
+
+.inf {
+  margin-top: -70px;
+  /* padding-left: 2px; */
 }
 
 .foot {
-  margin: 100px auto auto 400px;
+  margin: 100px auto auto 340px;
   padding-top: 10px;
 }
 
@@ -53,14 +70,14 @@
 
 .foot li {
   display: flex;
-  margin-left: 60px;
+  margin-left: 50px;
   border: 9px solid gray;
   border-radius: 50%;
   background-color: gray;
 }
 
 .foot-event {
-  margin-left: 480px;
+  margin-left: 430px;
 }
 
 .foot-event ul {
