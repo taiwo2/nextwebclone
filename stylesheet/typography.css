@@ -61,9 +61,6 @@
     padding-top: 50px;
   }
 
-} */ */
-
-
 @media screen and (max-width: 600px) {
   .first-nav a {
     float: none;
@@ -79,10 +76,12 @@
     'header header';
   width: 50%;
 }
+
 main {
   max-width: 400px;
   height:50%;
 }
+
 }
 
 

@@ -16,9 +16,8 @@ header {
 .navbar {
   display: flex;
   background-color: black;
-  margin-left: -10px auto auto -10px;
   max-width: 100%;
-  padding: 0 12px auto 12px;
+  padding: auto 12px auto 12px;
 }
 
 .left-nav {
@@ -41,7 +40,7 @@ header {
 
 .second-nav {
   display: flex;
-  margin-left: 9px auto auto 2px;
+  margin: 9px auto auto 2px;
   background-color: white;
   position: sticky;
   height: 3em;
