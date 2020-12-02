@@ -1,13 +1,5 @@
-.left-nav li {
-  display: inline;
-  font-size: 16px;
-  padding: 3px;
-}
-
-.right-nav li {
-  display: inline;
-  font-size: 16px;
-  padding: 3px;
+header {
+  display: block;
 }
 
 .right-nav a,
@@ -21,47 +13,76 @@
   font-weight: bold;
 }
 
-.left-nav ul {
-  padding: 0 10px;
-  margin: 5px 0;
-}
-
-.right-nav ul {
-  padding: 0 10px;
-  margin: 5px 0;
-}
-
-.first-nav {
+.navbar {
   display: flex;
-  justify-content: space-between;
-  height: 2em;
-  background: black;
+  background-color: black;
+  margin-left: -10px auto auto -10px;
+  max-width: 100%;
+  padding: 0 12px auto 12px;
 }
 
+.left-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-nav a {
+  margin-left: 7px;
+}
+.right-nav {
+  display: flex;
+  margin-left: 12px;
+}
+
+.right-nav a {
+  margin-left: 7px;
+}
 .second-nav {
   display: flex;
-  justify-content: space-between;
-}
-
-.second-nav ul {
-  margin: 20px 5px;
-  padding: 0;
-}
-
-.second-nav li {
-  list-style: none;
-  display: inline;
-  padding: 0 10px;
+  margin-left: 9px auto auto 2px;
+  background-color: white;
+  position: sticky;
+  height: 3em;
+  flex-shrink: inherit;
 }
 
 .second-nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #aaa;
-  font-weight: 500;
-  letter-spacing: 0.04em;
 }
 
-.imgg {
-  height: 90px;
+.second-nav a :hover {
+  color: wheat;
+}
+
+.searh {
+  display: flex;
+  margin-left: 15px;
+  border: 1px solid transparent;
+  background-color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .second-nav {
+    justify-content: space-between;
+    height: 70px;
+    font-size: 1.5em;
+    position: sticky;
+  }
+
+  .searh {
+    display: flex;
+    margin-right: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
 }

@@ -1,3 +1,7 @@
+.container {
+  display: grid;
+  max-width: 100%;
+}
 .col1 {
   grid: header;
   border: 5px solid whitesmoke;
@@ -8,7 +12,7 @@
 
 .col3 {
   grid: content;
-  border: 5px solid whitesmoke;
+  border: 7px solid whitesmoke;
   font-size: 16px;
   font-weight: 19px;
   background: linear-gradient(rgba(255, 255, 0, 0.37), rgba(0, 0, 255, 0.418));
@@ -19,7 +23,7 @@
 }
 
 .col4 {
-  border-top: 5px solid whitesmoke;
+  border-top: 9px solid whitesmoke;
 }
 
 .pad {
@@ -36,4 +40,14 @@
 }
 .link :hover {
   color: lavenderblush;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+      'header  content'
+      'heeader content';
+    width: 100%;
+  }
 }

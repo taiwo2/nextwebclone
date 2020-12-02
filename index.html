@@ -3,120 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nextweb</title>
     <link rel="stylesheet" href="stylesheet/app.css" />
-    <link rel="stylesheet" href="stylesheet/box.css" />
     <link rel="stylesheet" href="stylesheet/more-info.css" />
-    <link rel="stylesheet" href="stylesheet/latest.css" />
     <link rel="stylesheet" href="stylesheet/categories.css" />
     <link
       href="http://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
       type="text/css"
+
+    <link rel="stylesheet" href="stylesheet/grid.css">
+    <link rel="stylesheet" href="stylesheet/new-latest.css">
+    <link rel="stylesheet" href="stylesheet/new-more-info.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="stylesheet/typography.cs">
+    <link rel="stylesheet" href="stylesheet/style-reset.css">
+    <title>nextweb</title>
   </head>
   <body>
     <header>
-      <nav class="first-nav">
+      <nav class="navbar header nav">
         <div class="left-nav">
-          <ul class="head-left">
-            <li>
               <a href="#"><span id="logo">News</span></a>
-            </li>
-            <li>
+
+
               <a href="#">Events</a>
-            </li>
-            <li>
+
+
               <a href="#">Business</a>
-            </li>
-            <li>
+
+
               <a href="#">AMAs</a>
-            </li>
-            <li>
               <a href="#">Spaces</a>
-            </li>
-            <li>
               <a href="#">Terms & Conditions</a>
-            </li>
-          </ul>
         </div>
         <div class="right-nav">
-          <ul class="head-right">
-            <li><a href="#">About</a></li>
-            <li>
+            <a href="#">About</a>
               <a href="#">Advertise</a>
-            </li>
-            <li>
               <a href="#">Jobs</a>
-            </li>
-            <li>
               <a href="#">Contacts</a>
-            </li>
-          </ul>
         </div>
       </nav>
       <nav class="second-nav">
-        <ul>
-          <li><a href="#">Latest</a></li>
-          <li>
+           <div class="left-nav">
+          <a href="#">Latest</a></li>
+
             <a href="#">Hard Fork</a>
-          </li>
-          <li>
+
+
             <a href="#">Plugged</a>
-          </li>
-          <li>
+
+
             <a href="#">Readme</a>
-          </li>
-          <li>
+
+
             <a href="#">Growth Quaters</a>
-          </li>
-          <li>
+
+
             <a href="#">Shift</a>
-          </li>
-          <li>
             <a href="#">Neural</a>
-          </li>
-        </ul>
-        <ul class="searh">
-          <li>
-            <a href="#"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-search"
-              >
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+             </div>
+          <div class="right-na">
+            <button type="button" class="searh">
+            <a href="#">
+            <i class="fas fa-search"></i>
             </a>
-          </li>
-        </ul>
+        </button>
+      </a>
+    </div>
       </nav>
     </header>
     <main>
       <section>
         <div class="container grid">
+
           <div class="col1">
             <div class="pad">
               <img src="pictures/TNW-logo.png" alt="tnw" class="imgg" />
             </div>
+            <div>
             <h1 class="pad">
-              The long-term impacts COVID-19 will have on startups seeking
+              The long-term impacts COVID-19 will have on startups
+              seeking
               capital
-            </h1>
+            </h1></div>
             <ul class="col-list">
               <li>by <a href="#" class="link">Built</a> In 2 hours ago 7</li>
             </ul>
           </div>
-          <div class="col3">
+          <div class="col3 ">
             <div>
               <h2 class="pad">
                 Spotify’s Stories should feature music suggestions, not artists’
@@ -142,12 +118,13 @@
           </div>
         </div>
       </section>
+      <!-- cuuernt section done -->
       <section class="latest-news">
-        <div class="latest-container">
+
           <div class="latest-title">
-            <h2>Latest news ></h2>
-          </div>
-          <div class="latest-items-container">
+            <h2>Latest news ></h2></div>
+            <div class="latest-container cont">
+          <!-- <div class="latest-items-container"> -->
             <div class="latest-item">
               <div>
                 <img
@@ -156,12 +133,14 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 Facebook said It would ban holocaust deniers. Instead, its
                 algorithm provided a network for them
 
                 <small>The Markup - 18 hours ago</small>
-              </p>
+              </p></div>
+
             </div>
             <div class="latest-item">
               <div>
@@ -171,12 +150,13 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 Spooky space: Blue ring nebula reveals the secrets of binary
                 stars
 
                 <small>The Cosmic Companion - 20 hours ago</small>
-              </p>
+              </p></div>
             </div>
             <div class="latest-item">
               <div>
@@ -186,12 +166,13 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 If you want to learn a new tech skill, these training bundles
                 can help. And it’s all under $21
 
                 <small>TNW Deals - 20 hours ago</small>
-              </p>
+              </p></div>
             </div>
             <div class="latest-item">
               <div>
@@ -201,10 +182,12 @@
                   class="img"
                 />
               </div>
-              <p>
+              <div class="text">
+                              <p>
                 4 ways to respond to vaccine skeptics on social media
                 <small>The Conversation - 1 day ago</small>
               </p>
+              </div>
             </div>
             <div class="latest-item">
               <div>
@@ -214,12 +197,13 @@
                   alt="Man working on desk"
                 />
               </div>
+              <div class="text">
               <p>
                 These extended Black Friday deals of work from home essentials
                 can get 2021 off on the right foot
 
                 <small>TNW Deals - 1 day ago</small>
-              </p>
+              </p></div>
             </div>
             <div class="latest-item">
               <div>
@@ -229,12 +213,14 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 Periodic table: Scientists propose new way of ordering the
                 elements
 
                 <small>The Conversation - 1 day ago</small>
               </p>
+              </div>
             </div>
             <div class="latest-item">
               <div>
@@ -244,11 +230,13 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 The universe is getting hotter as it gets older — here's why
 
                 <small>The Cosmic Companion - 2 days ago</small>
               </p>
+              </div>
             </div>
             <div class="latest-item">
               <div>
@@ -258,23 +246,25 @@
                   class="img"
                 />
               </div>
+              <div class="text">
               <p>
                 Volvo thinks gaming tech can help make self-driving cars safer
 
                 <small>Matthew Beedham - 2 days ago</small>
-              </p>
+              </p></div>
             </div>
-          </div>
         </div>
       </section>
+      <!-- second done -->
       <section>
+        <!--  middle part -->
         <div>
-          <div class="more-info-head">
+          <div class="more-info">
             <div>
               <a href="#" class="link">Latest funding rounds on Index.co </a>
             </div>
 
-            <div>
+            <!-- <div>
               <svg
                 class="fa"
                 aria-hidden="true"
@@ -291,31 +281,26 @@
                   d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
                 ></path>
               </svg>
-            </div>
-          </div>
+            </div> -->
           <div class="more">
-            <ul class="col-list">
-              <li><a href="#" class="link"> See more</a></li>
-              |
-              <li><a href="#" class="link"> updates by email</a></li>
-              |
-              <li><a href="#" class="link"> Add info</a></li>
-            </ul>
+              <a href="#" class="link"> See more</a>
+             <span class="mor">|</span>
+              <a href="#" class="link"> updates by email</a>
+            <span class="mor">|</span>
+            <a href="#" class="link"> Add info</a>
           </div>
         </div>
         <!-- info  -->
+        <!--  clicky parth -->
         <div class="info-grid">
           <div class="info">
             <div class="inf">
-              <div class="head">
-                <h4>clicky</h4>
-              </div>
-
               <div class="head-2">
-                <h4>$700</h4>
-                <h5 class="h5">Seed funding</h5>
+                <h4 class="head">clicky</h4>
+                <h4 class="data">$700</h4>
+                <h5 class="h5 dat">Seed funding</h5>
               </div>
-              <div>
+              <div class="media">
                 <a href="#" class="link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -359,10 +344,10 @@
                     ></rect>
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                   </svg>
-                  <span class="#">Asif Keshodia</span>
+                  <span class="#">Asif Keshodia</span></div>
                   <hr
                 /></a>
-                <div>
+                <div class="pak">
                   <a href="#" class="link">
                     <p>
                       Pakistani fashion e-commerce startup Clicky.pk attracts
@@ -373,17 +358,16 @@
                 </div>
               </div>
             </div>
-          </div>
+
           <div class="info">
             <div class="inf">
-              <div class="head">
-                <h4>Pahamy</h4>
+
+                <div class="head-2">
+                <h4 class="head">Pahamy</h4>
+                <h4 class="data h4">Undisclose Amount</h4>
+                <h5 class="h5 dat">Series</h5>
               </div>
-              <div class="head-2">
-                <h4>Undisclose Amount</h4>
-                <h5 class="h5">Series</h5>
-              </div>
-              <div>
+              <div class="media">
                 <a href="#" class="link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -428,9 +412,9 @@
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                   </svg>
                   <span class="link">Shunwei Capital</span></a
-                >
+                ></div>
                 <hr />
-                <div>
+                <div class="pak">
                   <a href="#" class="link">
                     <p>
                       Indonesian edtech firm Pahamify bags Series A funding led
@@ -440,17 +424,15 @@
                 </div>
               </div>
             </div>
-          </div>
+
           <div class="info">
             <div class="inf">
-              <div class="head">
-                <h4>Halia</h4>
-              </div>
               <div class="head-2">
-                <h4>$3M</h4>
-                <h5 class="h5">Venture Capital</h5>
+                <h4 class="head">Halia</h4>
+                <h4 class="data">$3M</h4>
+                <h5 class="h5 dat">Venture Capital</h5>
               </div>
-              <div>
+              <div class="media">
                 <a href="#" class="link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -494,23 +476,24 @@
                     ></rect>
                     <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                   </svg>
-                  <span class="link">Abstract Ventures</span>
+                  <span class="link">Abstract Ventures</span></div>
                   <hr />
                 </a>
-                <div>
+                <div class="pak">
                   <p>
                     <a href="#" class="link"
-                      >Security Startup Helia Raises $3M From Silicon Valley
-                      Investors on neurons.AI <small>on neurons.AI</small>
+                      > <span class="link">Security Startup Helia Raises $3M From Silicon Valley
+                      Investors on neurons.AI <small>on neurons.AI</small></span>
                     </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+
         <!-- info end -->
       </section>
+      <!--  -->
       <section>
         <div class="hard-fork-container">
           <div class="hard-fork hf-box">
@@ -966,7 +949,7 @@
 
       <div class="footer">
         <div class="foot">
-          <ul>
+          <ul class="foot">
             <li>
               <a href="#" class="link"
                 ><svg
@@ -1053,7 +1036,7 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="link">
               <a href="#" class="link"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1088,6 +1071,6 @@
           </p>
         </div>
       </div>
-    </footer>
+       </footer>
   </body>
 </html>

@@ -1,65 +1,5 @@
-.more li {
-  display: inline;
-  margin-inline: 5px;
-  font-size: 30px;
-  font-weight: 24px;
-  color: red;
-}
-.fa {
-  height: 20px;
-  margin-left: 12px;
-  /* color: red; */
-}
-
-.more {
-  margin-left: -40px;
-}
-
-.more-info-head {
-  font-size: 3em;
-  display: flex;
-  color: red;
-}
-
-.info-grid {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  width: 60%;
-  column-gap: 17px;
-  margin-left: 20px;
-  padding-left: 12px;
-}
-.head {
-  font-size: 50px;
-  font-weight: 23px;
-  background-color: rgba(255, 0, 0, 0.309);
-  margin-top: auto;
-  text-align: center;
-  border-bottom: red 1px solid;
-}
-.head-2 {
-  margin-top: -60px;
-  text-align: center;
-  font-size: 30px;
-  /* background-blend-mode: overlay; */
-  background-color: royalblue;
-}
-
-.h5 {
-  margin-top: -40px;
-}
-.info {
-  background-color: rgba(255, 0, 0, 0.309);
-  margin-top: -1px;
-}
-
-.inf {
-  margin-top: -70px;
-  /* padding-left: 2px; */
-}
-
 .foot {
-  margin: 100px auto auto 340px;
+  margin-left: 60px;
   padding-top: 10px;
 }
 
@@ -70,26 +10,27 @@
 
 .foot li {
   display: flex;
-  margin-left: 50px;
+  margin-left: 30px;
   border: 9px solid gray;
   border-radius: 50%;
   background-color: gray;
 }
 
 .foot-event {
-  margin-left: 430px;
+  margin-left: 140px;
 }
 
 .foot-event ul {
   display: inline-flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
+
 .foot-event li {
   display: flex;
   margin-left: 20px;
   color: white;
 
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 
 .footer {
@@ -97,8 +38,9 @@
   padding-top: -12px;
   height: 150px;
 }
+
 .foot-event1 {
-  margin: auto auto 8px 350px;
+  margin: auto auto 8px 30px;
 }
 
 .foot-even {
@@ -106,4 +48,23 @@
   margin-top: -20px;
   height: 120px;
   padding-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    margin-top: 100px;
+  }
+
+  .foot {
+    display: flex;
+    margin-left: 230px;
+  }
+
+  .foot-event {
+    margin-left: 490px;
+  }
+
+  .foot-event1 {
+    margin-left: 300px;
+  }
 }

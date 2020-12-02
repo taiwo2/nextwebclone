@@ -1,9 +1,9 @@
-@media (max-width: 100px) {
+/* @media (max-width: 100px) {
 }
 @media (min-height: 350px) {
   /* CSS Rules */
 }
-
+/*
 @media screen and (min-width: 700px) {
   .first-nav {
     font-size: 14px;
@@ -11,4 +11,328 @@
   .second-nav {
     width: 40px;
   }
+  .left-nav li {
+    display: inline;
+    font-size: 16px;
+    padding: 3px;
+  }
+
+  .right-nav li {
+    display: inline;
+    font-size: 16px;
+    padding: 3px; */
+  /* }
+
+  .right-nav a,
+  .left-nav a {
+    text-decoration: none;
+    color: #b8b6b2;
+  }
+
+  #logo {
+    color: white;
+    font-weight: bold;
+  }
+
+  .left-nav ul {
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  .right-nav ul {
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  .first-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    background: black;
+  }
+
+  .second-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second-nav ul {
+    margin: 20px 5px;
+    padding: 0;
+  }
+
+  .second-nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+  }
+
+  .second-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  .imgg {
+    height: 90px;
+  }
+  .container {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr);
+    grid-template-rows: 1fr 1fr 1fr);
+    grid-template-areas:
+      'header header content'
+      'header header content';
+    width: 100%;
+  }
+
+  .col1 {
+    grid: header;
+    border: 5px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 19px;
+    background:linear-gradient(rgba(255, 255, 0, 0.37),rgba(0, 0, 255, 0.418))
+  }
+
+  .col3 {
+    grid: content;
+    border: 5https://github.com/taiwo2/nextwebclone.gitpx solid whitesmoke;
+    font-size: 16px;
+    font-weight: 19px;
+    background:linear-gradient(rgba(255, 255, 0, 0.37),rgba(0, 0, 255, 0.418))
+  }
+
+  .img {
+    color: aqua;
+  }
+
+  .col4 {
+    border-top: 5px solid whitesmoke;
+
+  }
+
+  .pad {
+    padding-left: 9px;
+  }
+
+   .col-list {
+     list-style: none;
+   }
+
+   .link {
+     text-decoration: none;
+     color: inherit;
+   }
+   .more li {
+    display: inline;
+    margin-inline: 5px;
+    font-size: 30px;
+    font-weight: 24px;
+    color: red;
+  }
+  .fa {
+    height: 20px;
+    margin-left: 12px;
+    /* color: red; */
+  }
+
+  .more {
+    margin-left: -40px;
+  }
+
+  .more-info-head {
+    /* font-size: 3em;
+    display: flex;
+    color: red;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 60%;
+    column-gap: 17px;
+    margin-left: 20px;
+    padding-left: 12px;
+  }
+  .head {
+    font-size: 50px;
+    font-weight: 23px;
+    background-color: rgba(255, 0, 0, 0.309);
+    margin-top: auto;
+    text-align: center;
+    border-bottom: red 1px solid;
+  } */
+  .head-2 {
+    margin-top: -60px;
+    text-align: center;
+    font-size: 30px;
+    /* background-blend-mode: overlay; */
+    background-color: royalblue;
+  }
+
+  .h5 {
+    margin-top: -40px;
+  }
+  .info {
+    background-color: rgba(255, 0, 0, 0.309);
+    /* margin-top: -1px; */
+  }
+
+  .inf {
+    margin-top: -70px;
+    /* padding-left: 2px; */
+  }
+
+  .foot {
+    margin: 100px auto auto 340px;
+    padding-top: 10px;
+  }
+
+  .foot ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .foot li {
+    display: flex;
+    margin-left: 50px;
+    border: 9px solid gray;
+    border-radius: 50%;
+    background-color: gray;
+  }
+
+  .foot-event {
+    margin-left: 430px;
+  }
+
+  .foot-event ul {
+    display: inline-flex;
+    /* justify-content: space-between; */
+  }
+  .foot-event li {
+    display: flex;
+    margin-left: 20px;
+    color: white;
+
+    /* border-radius: 50%; */
+  }
+
+  .footer {
+    background-color: black;
+    padding-top: -12px;
+    height: 150px;
+  }
+  .foot-event1 {
+    margin: auto auto 8px 350px;
+  }
+
+  .foot-even {
+    background-color: rgba(0, 0, 0, 0.453);
+    margin-top: -20px;
+    height: 120px;
+    padding-top: 50px;
+  }
+
+} */ */
+
+
+@media screen and (max-width: 600px) {
+  .first-nav a {
+    float: none;
+
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr );
+  grid-template-rows: 1fr 1fr 1fr );
+  grid-template-areas:
+    'header header'
+    'header header';
+  width: 50%;
 }
+main {
+  max-width: 400px;
+  height:50%;
+}
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .second-nav a {
+    float: none;
+    width: 100%;
+  }
+
+  .latest-news {
+    width:100%;
+    height:50px;
+  }
+  .grid {
+    display: grid;
+    grid-template-areas: "header header";
+    column-gap: 5px;
+  }
+  .latest-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    columns: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For tablets: */
+  .firt-nav {width: 23.33%; height: 100%;}
+  .second-nav {width: 16.66%; height: 100%;}
+  .latest-container {width: 25%;  height: 100%}
+  .latest-news {width: 33.33%;  height: 100%}
+  .more {width: 41.66%; height: 100%}
+  .more-info-head {width: 50%; height: 100%}
+  .more-info-grid {width: 58.33%; height: 100%}
+  .col-list {width: 50.66%; height: 100%}
+  .inf{width: 50%; height: 100%}
+  .info {width: 83.33%; height: 100%}
+  .more-info-grid {width:61.66%; height: 100%}
+  .hand-fork-container{width: 70%; height: 100%}
+  .hard-fork {width:23%; height: 100%}
+  .hf-box {width:23%; height: 100%}
+  .la-container {width:23%; height: 100%}
+  .apps-container  {width:54%; height: 100%}
+  .gear-container  {width:53%; height: 100%}
+  .apps-container {width:23%; height: 100%}
+  .footer {width:23%; height: 100%}
+
+}
+@media only screen and (min-width: 1120px) {
+  /* For desktop: */
+  .firt-nav {width: 8.33%; height: 50%}
+  .second-nav {width: 16.66%; height: 40%}
+  .latest-container {width: 25%; height: 50%}
+  .latest-news {width: 33.33%; height: 70%}
+  .more {width: 41.66%; height: 60%}
+  .more-info-head {width: 50%; height: 60%}
+  .more-info-grid {width: 58.33%; height: 60%}
+  .col-list {width: 66.66%; height: 50%}
+  .inf{width: 75%; height: 60%}
+  .info {width: 50.33%; height: 30%}
+  .more-info-grid {width:51.66%; height: 30%}
+  .hand-fork-container{width: 70%; height: 40%}
+  .hard-fork {width:23%; height: 50%}
+  .hf-box {width:23%; height: 40%}
+  .la-container {width:23%; height: 50%}
+  .apps-container  {width:54%; height: 50%}
+  .gear-container  {width:53%; height: 60%}
+  .apps-container {width:23%; height: 40%}
+  .footer {width:23%; height: 40%}
+
+}
+
+
