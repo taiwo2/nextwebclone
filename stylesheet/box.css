@@ -1,8 +1,6 @@
 .col1 {
-  grid: header;
   border: 5px solid whitesmoke;
   font-size: 20px;
-  font-weight: 19px;
   background: linear-gradient(rgba(255, 255, 0, 0.37), rgba(0, 0, 255, 0.418));
 }
 
@@ -34,6 +32,7 @@
   text-decoration: none;
   color: inherit;
 }
+
 .link :hover {
   color: lavenderblush;
 }
