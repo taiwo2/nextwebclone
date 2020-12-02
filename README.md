@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Next Web article clone
-
-> An article clone of [NYT](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
+# The Next Web clone
 
 ## Built With
 
@@ -21,13 +19,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **abeidahmed**
+👤 **Leandro Barreto**
 
-- GitHub: [@abeidahmed](https://github.com/abeidahmed)
-- Twitter: [@iamhawaabi](https://twitter.com/iamhawaabi)
-- LinkedIn: [Abeid Ahmed](https://www.linkedin.com/in/abeid-ahmed-b21882172/)
+- GitHub: [@leandro Barreto](https://github.com/Leandro-Barretoo)
+- Twitter: [@Leandro74972596](https://twitter.com/Leandro74972596)
+- LinkedIn: [@Leandro barreto](https://www.linkedin.com/in/leandro-miguel-gon%C3%A7alves-barreto-7079b11ba/)
 
-👤 **taiwo2**
+👤 **Taiwo Adetona**
 
 - GitHub: [@taiwo2](https://github.com/taiwo2)
 - Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
