@@ -114,7 +114,7 @@ q {
   quotes: none;
 }
 
-blockquote::before,
+blockquote:before,
 blockquote:after,
 q::before,
 q::afte

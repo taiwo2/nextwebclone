@@ -6,14 +6,12 @@
 .col1 {
   border: 5px solid whitesmoke;
   font-size: 20px;
-
   background: linear-gradient(rgba(255, 255, 0, 0.37), rgba(0, 0, 255, 0.418));
 }
 
 .col3 {
   border: 7px solid whitesmoke;
   font-size: 16px;
-  font-weight: 19px;
   background: linear-gradient(rgba(255, 255, 0, 0.37), rgba(0, 0, 255, 0.418));
 }
 
