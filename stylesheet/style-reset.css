@@ -114,8 +114,8 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
+blockquote: before,
+blockquote: after,
 q::before,
 q::afte
   content: none;
