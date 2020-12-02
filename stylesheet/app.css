@@ -17,7 +17,7 @@ header {
   display: flex;
   background-color: black;
   max-width: 100%;
-  padding: auto 12px auto 12px;
+  padding: 12px;
 }
 
 .left-nav {
