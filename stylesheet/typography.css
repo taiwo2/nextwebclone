@@ -1,5 +1,6 @@
   .more {
     margin-left: -40px;
+  }
 
   .h5 {
     margin-top: -40px;
@@ -42,8 +43,6 @@
     display: flex;
     margin-left: 20px;
     color: white;
-
-    /* border-radius: 50%; */
   }
 
   .footer {
