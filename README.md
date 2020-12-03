@@ -1,10 +1,8 @@
-# Project 1: Positioning and Floating Elements
+# Project 2: Building with Responsive Design
 
-> Recreation of New York Times article. The Article is shortened in this project for simplifying our work. 
+> Recreation of The New Web using responsive design. 
 
-![image](./project-1-screenshot.jpg)
-
-> This project is an attempt to recreate a New York Times article using HTML, CSS and applying position concepts, for example, Flexbox and Floats.
+> This project is an attempt to recreate a Website called The New Web using HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
 
 ## Built with
 
@@ -13,7 +11,7 @@
 ## Live Demo
 
 ```sh
-https://necmigunduz.github.io/ny-article/
+https://taiwo2.github.io/nextwebclone/
 ```
 
 ## Authors
@@ -26,13 +24,13 @@ https://necmigunduz.github.io/ny-article/
 
 :bust_in_silhouette: **Author 2**
 
-- GitHub: [@necmigunduz](https://github.com/necmigunduz)
-- Twitter: [@necm_gun](https://twitter.com/necm_gun)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/necmigunduz/)
+- GitHub: [@taiwo2](https://github.com/taiwo2)
+- Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
 
 ## :thumbsup: Contributing
 
-1. Fork it (<https://github.com/necmigunduz/ny-article/fork>)
+1. Fork it (<https://github.com/taiwo2/nextwebclone/fork>)
 2. Create your feature branch (`git checkout -b <branch-name>`)
 3. Commit your changes (`git commit -m "Descriptive change"`)
 4. Push to the branch (`git push -u origin <branch-name>`)
