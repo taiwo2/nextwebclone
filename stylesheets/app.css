@@ -1,3 +1,5 @@
+/* stylelint-disable indentation */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
 @media (max-width:767px) {
@@ -340,7 +342,7 @@
     .prev-price {
         font-weight: normal;
         text-decoration: line-through;
-    } 
+    }
 
     /* Footer */
 
@@ -496,7 +498,7 @@
         margin: 10px;
     }
 
-    .sec-text2-item ul li a{
+    .sec-text2-item ul li a {
         text-decoration: none;
         color: grey;
     }
@@ -561,7 +563,7 @@
         font-weight: 700;
         line-height: 22px;
         margin: 10px;
-        margin-top: 80% ;
+        margin-top: 80%;
     }
 
     .small-tg {
@@ -610,7 +612,7 @@
     }
 
     /* Latest Funding */
-    
+
     .last-fund-sec {
         margin: 20px 25px;
     }
@@ -640,7 +642,7 @@
     }
 
     .fund-4 {
-       display: none; 
+        display: none;
     }
 
     .funding-first {
@@ -1025,7 +1027,7 @@
         margin: 10px;
     }
 
-    .sec-text2-item ul li a{
+    .sec-text2-item ul li a {
         text-decoration: none;
         color: grey;
     }
@@ -1090,7 +1092,7 @@
         font-weight: 700;
         line-height: 22px;
         margin: 10px;
-        margin-top: 80% ;
+        margin-top: 80%;
     }
 
     .small-tg {
@@ -1139,7 +1141,7 @@
     }
 
     /* Latest Funding */
-    
+
     .last-fund-sec {
         margin: 20px 25px;
     }
@@ -1461,4 +1463,3 @@
         color: white;
     }
 }
-
