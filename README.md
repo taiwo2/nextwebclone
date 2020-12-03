@@ -12,10 +12,7 @@
 To get a local copy up and running follow these simple example steps.
 
 - `git clone https://github.com/taiwo2/nextwebclone.git`
-- `cd nextwebclone`
-- `git checkout -b nextweb`
-- `git pull`
-- If you have vscode `live-server` installed, run it and open `localhost:3000`
+- If you have vscode `live-server` installed, run it and open
 
 ## Authors
 
