@@ -1,50 +1,49 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Project 2: Building with Responsive Design
 
-# The Next Web clone
+> Recreation of The New Web using responsive design. 
 
-## Built With
+> This project is an attempt to recreate a Website called The New Web using HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
 
-- HTML
-- CSS
+## Built with
 
-## Getting Started
+* HTML and CSS
 
-To get a local copy up and running follow these simple example steps.
+## Live Demo
 
-- `git clone https://github.com/taiwo2/nextwebclone.git`
-- If you have vscode `live-server` installed, run it and open
+```sh
+https://taiwo2.github.io/nextwebclone/
+```
 
 ## Authors
 
-👤 **Leandro Barreto**
+:bust_in_silhouette: **Author 1**
 
-- GitHub: [@leandro Barreto](https://github.com/Leandro-Barretoo)
+- GitHub: [@Leandro-Barretoo](https://github.com/Leandro-Barretoo)
 - Twitter: [@Leandro74972596](https://twitter.com/Leandro74972596)
-- LinkedIn: [@Leandro barreto](https://www.linkedin.com/in/leandro-miguel-gon%C3%A7alves-barreto-7079b11ba/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leandro-miguel-gon%C3%A7alves-barreto-7079b11ba/)
 
-👤 **Taiwo Adetona**
+:bust_in_silhouette: **Author 2**
 
 - GitHub: [@taiwo2](https://github.com/taiwo2)
 - Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4)
-- LinkedIn: [Taiwo Adetona](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/taiwo-waliyullahi-adetona-988898180/)
 
-## 🤝 Contributing
+## :thumbsup: Contributing
 
-Contributions, issues, and feature requests are welcome!
+1. Fork it (<https://github.com/taiwo2/nextwebclone/fork>)
+2. Create your feature branch (`git checkout -b <branch-name>`)
+3. Commit your changes (`git commit -m "Descriptive change"`)
+4. Push to the branch (`git push -u origin <branch-name>`)
+5. Create a new Pull Request
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a :star: if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [The next web](https://thenextweb.com/)
-- Hat tip to Microverse for their `README` template.
+- Odin's Project Positioning Lessons
 
-## 📝 License
+## :page_with_curl: License
 
-Copyright 2020 Leandro barreto & Taiwo Adetona
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
