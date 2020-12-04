@@ -1,18 +1,16 @@
 # Project 2: Building with Responsive Design
 
-> Recreation of The New Web using responsive design. 
+> Recreation of The New Web using responsive design.
 
 > This project is an attempt to recreate a Website called The New Web using HTML, CSS and applying position concepts and UX principles to achieve a responsive website for any device.
 
 ## Built with
 
-* HTML and CSS
+- HTML and CSS
 
 ## Live Demo
 
-```sh
-https://taiwo2.github.io/nextwebclone/
-```
+[live](https://taiwo2.github.io/nextwebclone/)
 
 ## Authors
 
