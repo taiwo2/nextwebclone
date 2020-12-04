@@ -424,10 +424,15 @@
     text-decoration: none;
   }
 
+  .footer {
+    background-color: gray;
+  }
+
   .foot-bottom {
     text-align: center;
-    margin: 20px 30%;
-    color: white;
+    color: black;
+    font-size: 13px;
+    padding: 20px 0 10px;
   }
 }
 
@@ -947,6 +952,8 @@
 
   .foot {
     background: black;
+    margin-left: 300px;
+    padding: 40px 0 20px 0;
   }
 
   .foot a {
@@ -966,8 +973,8 @@
 
   .foot-event {
     background-color: black;
-    margin-bottom: 60px;
-    margin-left: 0;
+    margin-bottom: 40px;
+    margin-left: 4px;
     text-align: center;
     font-size: 15px;
     list-style: none;
@@ -975,10 +982,11 @@
   }
 
   .foot-bottom {
-    text-align: center;
-    margin: 15px 0 12px 0;
     color: white;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 15px;
   }
 
   .grid-text {
@@ -1559,7 +1567,7 @@
 
   .foot-bottom {
     text-align: center;
-    margin: 20px 30%;
+    margin: 20px;
     color: white;
     background-color: black;
     height: 120px;
