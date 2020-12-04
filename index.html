@@ -6,6 +6,10 @@
     <title>The NEXT web</title>
     <link rel="stylesheet" href="stylesheets/css-reset.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -25,7 +29,7 @@
             <div class="left-nav">
               <ul class="head-left">
                 <li>
-                  <a href="#"><span id="logo">News</span></a>
+                  <a href="#"><span class="logo">News</span></a>
                 </li>
                 <li>
                   <a href="#">Events</a>
@@ -191,9 +195,11 @@
       </div>
       <div class="fund-text">
         <h2>Latest funding rounds on Index.co ></h2>
-        <p>See more <span class="dash-disappear">|</span></p>
-        <p>Get updates by email <span class="dash-disappear">|</span></p>
-        <p>Add info</p>
+        <div class="dash">
+          <p>See more <span class="dash-disappear">|</span></p>
+          <p>Get updates by email <span class="dash-disappear">|</span></p>
+          <p>Add info</p>
+        </div>
       </div>
 
       <!-- Latest Funding Section -->
@@ -207,11 +213,11 @@
               <p><span class="fund-price">$6M</span></p>
               <p><span class="fund-lower">SERIES A</span></p>
             </div>
-            <div class="funding-second">
+            <div class="funding-second text1">
               <p class="fund-2-para">Cloud Computing, +3</p>
               <p class="fund-2-para">Entree Capital, +5</p>
             </div>
-            <div class="funding-third">
+            <div class="funding-third text1">
               <p>
                 Sequoia's Surge leads $6 Mn round in LambdaTest
                 <span class="grey-area">on Entrackr</span>
@@ -225,10 +231,10 @@
               <p><span class="fund-price">$3.2M</span></p>
               <p><span class="fund-lower">UNDISCLOSED</span></p>
             </div>
-            <div class="funding-second">
+            <div class="funding-second text1">
               <p class="fund-2-para">Information Technology</p>
             </div>
-            <div class="funding-third">
+            <div class="funding-third text1">
               <p>
                 YC-backed BuildBuddy raises $3.15M to help developers build
                 software more quickly
@@ -243,11 +249,11 @@
               <p><span class="fund-price">$15.5M</span></p>
               <p><span class="fund-lower">SERIES A</span></p>
             </div>
-            <div class="funding-second">
+            <div class="funding-second text1>
               <p class="fund-2-para">Information Technology, +2</p>
               <p class="fund-2-para">Northzone, +4</p>
             </div>
-            <div class="funding-third">
+            <div class="funding-third text1">
               <p>
                 Infogrid raises $15.5M from Northzone to retrofit buildings with
                 'smart' IoT <span class="grey-area">on TechCrunch</span>
@@ -261,11 +267,11 @@
               <p><span class="fund-price">$3.2M</span></p>
               <p><span class="fund-lower">VENTURE CAPITAL</span></p>
             </div>
-            <div class="funding-second">
+            <div class="funding-second text1">
               <p class="fund-2-para">Financial Services</p>
               <p class="fund-2-para">Surge</p>
             </div>
-            <div class="funding-third">
+            <div class="funding-third text1">
               <p>
                 Tazapay snags US$3.2M to expand cross-border SMB commerce
                 platform in Southeast Asia | e27
@@ -706,96 +712,17 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="footer-container">
         <div class="foot">
           <ul>
-            <li>
-              <a href="#" class="link"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-instagram"
-                >
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                  <path
-                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                  ></path>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-mail"
-                >
-                  <path
-                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                  ></path>
-                  <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-youtube"
-                >
-                  <path
-                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
-                  ></path>
-                  <polygon
-                    points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
-                  ></polygon>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-facebook"
-                >
-                  <path
-                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                  ></path>
-                </svg>
-              </a>
-            </li>
+            <a href="#"><i class="footer__icons fab fa-facebook-square"></i></a>
+            <a href="#"><i class="footer__icons fab fa-twitter-square"></i></a>
+            <a href="#"><i class="footer__icons fab fa-youtube"></i></a>
+            <a href="#"><i class="footer__icons fab fa-instagram"></i></a>
+            <a href="#"><i class="footer__icons fab fa-pinterest"></i></a>
+            <a href="#"><i class="footer__icons fas fa-rss"></i></a>
+            <a href="#"><i class="footer__icons fas fa-envelope"></i></a>
           </ul>
         </div>
         <div class="foot-event">
@@ -807,12 +734,12 @@
             <li><a href="#" class="link">Contacts</a></li>
           </ul>
         </div>
-        <div class="foot-bottom">
-          <p>
-            TNW &nbsp; © &nbsp; 2006–2020 The Next Web B.V. Made with in
-            Amsterdam. Powered by StackPath
-          </p>
-        </div>
+      </div>
+      <div class="foot-bottom">
+        <p>
+          TNW &nbsp; © &nbsp; 2006–2020 The Next Web B.V. Made with in
+          Amsterdam. Powered by StackPath
+        </p>
       </div>
     </footer>
   </body>
