@@ -1126,6 +1126,7 @@
   .sec-text2-item ul li a {
     text-decoration: none;
   }
+
   .sec-text2-item li :hover {
     color: rgb(245, 245, 245);
   }
@@ -1566,6 +1567,7 @@
     background-color: black;
     height: 120px;
   }
+
   .footer {
     background-color: black;
   }
