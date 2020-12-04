@@ -12,13 +12,24 @@
   }
 
   .top-first-header {
-    border: 1px solid grey;
+    border: 1px solid transparent;
     display: flex;
     justify-content: space-between;
   }
 
   .top-first-header img {
     display: block;
+  }
+
+  .text1 {
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+  }
+
+  .text1 ul:visited {
+    color: #aaa;
   }
 
   .svg-pics {
@@ -28,7 +39,7 @@
 
   .svg-pics img {
     display: block;
-    border: 0.1px solid grey;
+    border: 0.1px solid transparent;
     padding: 10px 10px;
     width: 30px;
   }
@@ -50,20 +61,17 @@
   }
 
   .img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/nintendo.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/nintendo.png');
     background-size: cover;
   }
 
   .img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/cliché.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/cliché.png');
     background-size: cover;
   }
 
   .img-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/boston.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/boston.png');
     background-size: cover;
   }
 
@@ -262,56 +270,47 @@
   }
 
   .img-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/jack-dorsey.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/jack-dorsey.png');
     background-size: cover;
   }
 
   .img-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/snapchat.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/snapchat.png');
     background-size: cover;
   }
 
   .img-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/dogs.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/dogs.png');
     background-size: cover;
   }
 
   .img-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/pc-mobile.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/pc-mobile.png');
     background-size: cover;
   }
 
   .img-8 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/graphic-d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/graphic-d.png');
     background-size: cover;
   }
 
   .img-9 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/google-pic.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/google-pic.png');
     background-size: cover;
   }
 
   .img-10 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/money.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/money.png');
     background-size: cover;
   }
 
   .img-11 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/presenter.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/presenter.png');
     background-size: cover;
   }
 
   .img-12 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/president.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/president.png');
     background-size: cover;
   }
 
@@ -350,7 +349,7 @@
   }
 
   .hf-box ul li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
   }
 
   .hf-box ul li::before {
@@ -386,8 +385,17 @@
     text-align: center;
   }
 
-  .foot ul {
+  .foot a {
     list-style: none;
+    margin-left: 3px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 1px 2px 2px 2px;
+    color: grey;
+  }
+
+  .foot a:hover {
+    background-color: rgba(128, 128, 128, 0.316);
   }
 
   .link {
@@ -419,6 +427,10 @@
     text-align: center;
     margin: 20px 30%;
     color: white;
+  }
+
+  .footer {
+    background-color: gray;
   }
 }
 
@@ -527,8 +539,25 @@
   .grid-section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin-top: 7px;
+    height: 250px;
+  }
+  .gear1 {
+    margin-top: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    padding-left: 9px;
+  }
+  .gear2 {
+    margin-top: 10px;
+  }
+  .gear3 {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 9px;
+    line-height: 15px;
   }
 
   .grid1-item {
@@ -553,20 +582,17 @@
   }
 
   .img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/nintendo.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/nintendo.png');
     background-size: cover;
   }
 
   .img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/cliché.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/cliché.png');
     background-size: cover;
   }
 
   .img-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/boston.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/boston.png');
     background-size: cover;
   }
 
@@ -794,56 +820,47 @@
   }
 
   .img-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/jack-dorsey.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/jack-dorsey.png');
     background-size: cover;
   }
 
   .img-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/snapchat.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/snapchat.png');
     background-size: cover;
   }
 
   .img-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/dogs.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/dogs.png');
     background-size: cover;
   }
 
   .img-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/pc-mobile.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/pc-mobile.png');
     background-size: cover;
   }
 
   .img-8 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/graphic-d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/graphic-d.png');
     background-size: cover;
   }
 
   .img-9 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/google-pic.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/google-pic.png');
     background-size: cover;
   }
 
   .img-10 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/money.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/money.png');
     background-size: cover;
   }
 
   .img-11 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/presenter.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/presenter.png');
     background-size: cover;
   }
 
   .img-12 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/president.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/president.png');
     background-size: cover;
   }
 
@@ -869,7 +886,7 @@
   }
 
   .hf-box ul li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
   }
 
   .hf-box ul li::before {
@@ -929,9 +946,42 @@
 
     /* justify-content: space-between; */
   }
+  .footer {
+    background: black;
+  }
 
   .foot-event {
-    background-color: black;
+    margin-bottom: auto;
+  }
+
+  .footer-container {
+    background: gray;
+  }
+
+  .foot {
+    background: gray;
+  }
+
+  .foot1 {
+    background-color: gray;
+  }
+
+  .foot a {
+    margin-left: 10px;
+    font-size: 35px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: gray;
+    padding: 2px 4px 2px 4px;
+    color: rgba(255, 255, 255, 0.665);
+  }
+
+  .foot a:hover {
+    color: whitesmoke;
+  }
+
+  .foot-event {
+    background-color: rgba(0, 0, 0, 0.152);
     margin-bottom: 60px;
     margin-left: 0;
     text-align: center;
@@ -942,8 +992,9 @@
 
   .foot-bottom {
     text-align: center;
-    margin: 20px 30%;
+    margin: 30px 30%;
     color: white;
+    height: 50px;
   }
   .grid-text {
     margin: 0;
@@ -1113,20 +1164,17 @@
   }
 
   .img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/nintendo.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/nintendo.png');
     background-size: cover;
   }
 
   .img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/cliché.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/cliché.png');
     background-size: cover;
   }
 
   .img-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/boston.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/boston.png');
     background-size: cover;
   }
 
@@ -1201,8 +1249,7 @@
 
   .funding-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
   }
 
@@ -1362,56 +1409,47 @@
   }
 
   .img-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/jack-dorsey.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/jack-dorsey.png');
     background-size: cover;
   }
 
   .img-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/snapchat.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/snapchat.png');
     background-size: cover;
   }
 
   .img-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/dogs.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/dogs.png');
     background-size: cover;
   }
 
   .img-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/pc-mobile.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/pc-mobile.png');
     background-size: cover;
   }
 
   .img-8 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/graphic-d.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/graphic-d.png');
     background-size: cover;
   }
 
   .img-9 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/google-pic.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/google-pic.png');
     background-size: cover;
   }
 
   .img-10 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/money.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/money.png');
     background-size: cover;
   }
 
   .img-11 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/presenter.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/presenter.png');
     background-size: cover;
   }
 
   .img-12 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-      url('../pics/president.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/president.png');
     background-size: cover;
   }
 
