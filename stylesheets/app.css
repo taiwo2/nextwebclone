@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
 @media (max-width: 767px) {
   body {
     font-family: Poppins, sans-serif;
@@ -10,7 +17,6 @@
   }
 
   .top-first-header {
-    border: 1px solid transparent;
     display: flex;
     justify-content: space-between;
   }
@@ -420,12 +426,12 @@
   }
 
   .footer {
-    background-color: gray;
+    background-color: black;
   }
 
   .foot-bottom {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 13px;
     padding: 20px 0 10px;
   }
@@ -480,6 +486,10 @@
 
   .logo {
     font-weight: bold;
+  }
+
+  .error {
+    margin-top: 350px;
   }
 
   .foot li {
@@ -985,11 +995,6 @@
   .footer {
     background-color: black;
   }
-
-  .taiwo {
-    padding: 6px;
-    display: block;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1006,6 +1011,11 @@
     display: none;
     border: 1px solid grey;
     justify-content: space-between;
+  }
+
+  .taiwo {
+    padding: 6px;
+    display: block;
   }
 
   .svg-pics svg {
