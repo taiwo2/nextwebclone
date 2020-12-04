@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
-.taiwo {
-  display: none;
-}
-
 @media (max-width: 767px) {
   body {
     font-family: Poppins, sans-serif;
+  }
+
+  .taiwo {
+    display: none;
   }
 
   .top-first-header {
@@ -438,6 +438,10 @@
 @media (min-width: 767px) {
   body {
     font-family: Poppins, sans-serif;
+  }
+
+  .taiwo {
+    display: none;
   }
 
   .top-first-header {
