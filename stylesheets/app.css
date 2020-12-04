@@ -21,6 +21,17 @@
     display: block;
   }
 
+  .text1 {
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+  }
+
+  .text1 ul:visited {
+    color: #aaa;
+  }
+
   .svg-pics {
     display: flex;
     margin: auto 0;
@@ -397,17 +408,6 @@
     /* justify-content: space-between; */
   }
 
-  .text1 {
-    color: #555;
-    display: block;
-    padding: 6px 0 6px 14px;
-    position: relative;
-  }
-
-  .text1 ul:visited {
-    color: #aaa;
-  }
-
   .foot-event {
     background-color: black;
     margin-bottom: 60px;
@@ -427,10 +427,6 @@
     text-align: center;
     margin: 20px 30%;
     color: white;
-  }
-
-  .footer {
-    background-color: gray;
   }
 }
 
@@ -509,16 +505,6 @@
     text-decoration: none;
   }
 
-  .foot a {
-    margin-left: 10px;
-    font-size: 35px;
-    border: 3px solid black;
-    border-radius: 50%;
-    background-color: gray;
-    padding: 2px 4px 2px 4px;
-    color: rgba(255, 255, 255, 0.665);
-  }
-
   .sec-text1-item ul li a {
     text-decoration: none;
     color: white;
@@ -552,7 +538,6 @@
     margin-top: 7px;
     height: 250px;
   }
-
   .gear1 {
     margin-top: 150px;
     font-size: 24px;
@@ -560,11 +545,9 @@
     line-height: 20px;
     padding-left: 9px;
   }
-
   .gear2 {
     margin-top: 10px;
   }
-
   .gear3 {
     margin-top: 50px;
     font-size: 18px;
@@ -616,9 +599,6 @@
     line-height: 22px;
     margin: 10px;
     margin-top: 30%;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
   }
 
   .first-square {
@@ -942,13 +922,15 @@
 
   .foot {
     background-color: black;
-    margin: 25px 0;
+    margin: 30px 0;
     text-align: center;
-    background: gray;
   }
 
   .foot ul {
     list-style: none;
+  }
+  .foot li {
+    border-radius: 50%;
   }
 
   .link {
@@ -964,20 +946,28 @@
     background: black;
   }
 
-  .foot-event {
-    margin-bottom: auto;
+  .footer-container {
+    background: gray;
   }
 
-  .foot a:hover {
-    color: whitesmoke;
+  .foot {
+    background: gray;
   }
 
   .foot1 {
     background-color: gray;
   }
 
+  .foot a {
+    margin-left: 10px;
+    font-size: 35px;
+    border: 6px solid black;
+    border-radius: 50%;
+    background-color: gray;
+  }
+
   .foot-event {
-    background-color: rgba(0, 0, 0, 0.152);
+    background-color: black;
     margin-bottom: 60px;
     margin-left: 0;
     text-align: center;
@@ -988,9 +978,16 @@
 
   .foot-bottom {
     text-align: center;
-    margin: 30px 30%;
+    margin: 20px 30%;
     color: white;
-    height: 50px;
+  }
+  .grid-text {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
   }
 }
 
@@ -1052,6 +1049,10 @@
 
   .logo {
     font-weight: bold;
+  }
+
+  .error {
+    margin-top: 650px;
   }
 
   .foot li {
