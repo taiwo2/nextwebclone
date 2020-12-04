@@ -357,6 +357,10 @@
     text-decoration: line-through;
   }
 
+  .foot-event ul {
+    display: inline-flex;
+  }
+
   .text1 ul:visited {
     color: #aaa;
   }
@@ -396,10 +400,6 @@
 
   .link {
     color: white;
-  }
-
-  .foot-event ul {
-    display: inline-flex;
   }
 
   .text1 {
@@ -510,6 +510,17 @@
     text-decoration: none;
   }
 
+  .foot a {
+    margin-left: 10px;
+    font-size: 20px;
+    border: 4px solid gray;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.412);
+    color: gainsboro;
+    padding: 4px 6px 4px 6px;
+    text-align: center;
+  }
+
   .sec-text1-item ul li a {
     text-decoration: none;
     color: white;
@@ -602,11 +613,15 @@
 
   .grid-text {
     color: white;
-    font-size: 20px;
     font-weight: 700;
     line-height: 22px;
-    margin: 10px;
     margin-top: 30%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
   }
 
   .first-square {
@@ -950,17 +965,6 @@
     padding: 40px 0 20px 0;
   }
 
-  .foot a {
-    margin-left: 10px;
-    font-size: 20px;
-    border: 4px solid gray;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.412);
-    color: gainsboro;
-    padding: 4px 6px 4px 6px;
-    text-align: center;
-  }
-
   .foot a:hover {
     color: gray;
   }
@@ -981,15 +985,6 @@
     font-size: 15px;
     margin-left: 30px;
     padding-top: 15px;
-  }
-
-  .grid-text {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
   }
 }
 
@@ -1074,6 +1069,10 @@
     /* border-radius: 50%; */
   }
 
+  .foot-event li {
+    color: black;
+  }
+
   .sec-text1-item ul li {
     display: inline;
     font-size: 14px;
@@ -1095,6 +1094,20 @@
     color: white;
     margin-left: 12px;
     font-size: 17px;
+  }
+
+  .foot a {
+    border: 1px solid black;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.529);
+    background-color: gray;
+    margin-left: 9px;
+    padding: 2px 6px 2px 6px;
+    background: #333;
+  }
+
+  .sec-text2-item ul li a {
+    text-decoration: none;
   }
 
   .sec-text1-item a:hover {
@@ -1120,11 +1133,7 @@
 
   .sec-text2-item ul {
     display: flex;
-    margin: 0px;
-  }
-
-  .sec-text2-item ul li a {
-    text-decoration: none;
+    margin: 0;
   }
 
   .sec-text2-item li :hover {
@@ -1460,15 +1469,27 @@
     position: relative;
   }
 
-  .text1 ul:visited {
-    color: #aaa;
-  }
-
   .hf-box ul {
     list-style: none;
     padding: 25px;
     line-height: 30px;
     margin: 0;
+  }
+
+  .foot ul {
+    list-style: none;
+    font-size: 30px;
+    background: #131313;
+  }
+
+  .foot-event ul {
+    display: inline-flex;
+
+    /* justify-content: space-between; */
+  }
+
+  .text1 ul:visited {
+    color: #aaa;
   }
 
   .hf-box ul li {
@@ -1507,7 +1528,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    background: #131313;
+    background-color: #131313;
   }
 
   .foot {
@@ -1516,38 +1537,12 @@
     text-align: center;
   }
 
-  .foot ul {
-    list-style: none;
-    font-size: 30px;
-    background: #131313;
-  }
-
-  .foot a {
-    border: 1px solid black;
-    border-radius: 50%;
-    color: rgba(255, 255, 255, 0.529);
-    background-color: gray;
-    margin-left: 9px;
-    padding: 2px 6px 2px 6px;
-    background: #333;
-  }
-
   .foot a :hover {
     color: black;
   }
 
   .link {
     color: white;
-  }
-
-  .foot-event ul {
-    display: inline-flex;
-
-    /* justify-content: space-between; */
-  }
-
-  .foot-event li {
-    color: black;
   }
 
   .foot-event {
