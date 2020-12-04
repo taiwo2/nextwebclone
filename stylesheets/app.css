@@ -505,6 +505,10 @@ header {
     /* border-radius: 50%; */
   }
 
+  .foot1 li {
+    display: inline;
+  }
+
   .sec-text1-item ul li {
     display: inline;
     font-size: 14px;
@@ -960,10 +964,6 @@ header {
   .foot1 {
     display: flex;
     justify-content: center;
-  }
-
-  .foot1 li {
-    display: inline;
   }
 
   .foot a :hover {
@@ -1571,10 +1571,5 @@ header {
 
   .footer {
     background-color: black;
-  }
-
-  .taiwo {
-    padding: 6px;
-    display: block;
   }
 }
