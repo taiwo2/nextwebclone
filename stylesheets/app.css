@@ -18,23 +18,8 @@
     position: fix;
   }
 
-  .searh {
-    position: ;
-  }
-
   .top-first-header img {
     display: block;
-  }
-
-  .text1 {
-    color: #555;
-    display: block;
-    padding: 6px 0 6px 14px;
-    position: relative;
-  }
-
-  .text1 ul:visited {
-    color: #aaa;
   }
 
   .svg-pics {
@@ -375,6 +360,17 @@
     text-decoration: line-through;
   }
 
+  .text1 {
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+  }
+
+  .text1 ul:visited {
+    color: #aaa;
+  }
+
   /* Footer */
 
   .footer-container {
@@ -547,6 +543,7 @@
     margin-top: 7px;
     height: 250px;
   }
+
   .gear1 {
     margin-top: 150px;
     font-size: 24px;
@@ -554,9 +551,11 @@
     line-height: 20px;
     padding-left: 9px;
   }
+
   .gear2 {
     margin-top: 10px;
   }
+
   .gear3 {
     margin-top: 50px;
     font-size: 18px;
@@ -927,19 +926,11 @@
     display: flex;
     flex-direction: column;
     background-color: gray;
-  }
-
-  .foot {
-    background-color: black;
-    margin: 30px 0;
-    text-align: center;
+    background: black;
   }
 
   .foot ul {
     list-style: none;
-  }
-  .foot li {
-    border-radius: 50%;
   }
 
   .link {
@@ -948,15 +939,10 @@
 
   .foot-event ul {
     display: inline-flex;
-
-    /* justify-content: space-between; */
   }
+
   .footer {
     background: gray;
-  }
-
-  .footer-container {
-    background: black;
   }
 
   .foot {
@@ -970,8 +956,8 @@
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.412);
     color: gainsboro;
-    background: rgba(128, 128, 128, 0.049);
     padding: 4px 6px 4px 6px;
+    text-align: center;
   }
 
   .foot a:hover {
@@ -1035,8 +1021,12 @@
 
   .grid-text {
     line-height: 50px;
-    font-size: 100%;
     vertical-align: baseline;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 30%;
   }
 
   .second-logo-cont {
@@ -1104,6 +1094,7 @@
     margin-left: 12px;
     font-size: 17px;
   }
+
   .sec-text1-item a:hover {
     color: wheat;
   }
@@ -1136,8 +1127,6 @@
   .sec-text2-item li :hover {
     color: rgb(245, 245, 245);
   }
-
-  /* Grid Section */
 
   .text {
     align-items: center;
@@ -1179,15 +1168,6 @@
   .img-3 {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/boston.png');
     background-size: cover;
-  }
-
-  .grid-text {
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 22px;
-    margin: 10px;
-    margin-top: 30%;
   }
 
   .first-square {
