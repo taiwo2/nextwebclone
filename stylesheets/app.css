@@ -192,6 +192,12 @@ header {
     color: black;
   }
 
+  .silicon{
+    font-size: 12px;
+    border-top: 1px solid #f6e6e5 ; 
+    padding: 10px;
+  }
+
   .funding-second img {
     float: left;
   }
@@ -215,7 +221,6 @@ header {
 
   .funding-third {
     flex: 0.5;
-    border-bottom: 1px solid red; */
     padding: 10px 15px;
   }
 
@@ -293,6 +298,10 @@ header {
     font-weight: 700;
     line-height: 30px;
     padding-bottom: 30px;
+  }
+
+  .tesla {
+    font-size: 14px;
   }
 
   .large-text {
@@ -747,7 +756,7 @@ header {
 
   .funding-item {
     overflow: hidden;
-    background-color: #f6e6e5;
+    /* background-color: #f6e6e5; */
   }
 
   .fund-1 {
@@ -767,13 +776,45 @@ header {
   }
 
   .funding-first {
-    flex: 1;
-    padding: 30px 15px;
-    background-color: #da5320;
+    padding: 10px ; 
+    background-color: #f42;
   }
 
+  .e-box {
+    position: relative;
+  }
+
+  .new-price {
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  .case {
+    margin-right: 5px;
+  }
+
+  .pay{
+    font-size: 12px;
+  }
+
+  .case a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .pay:hover{
+    color: black;
+  }
+
+  .silicon{
+    font-size: 12px;
+    border-top: 1px solid #f6e6e5 ; 
+    padding: 10px;
+  }
+  
   .funding-first img {
-    float: left;
+    position:absolute;
+    top: 5%;
   }
 
   .funding-second {
@@ -805,9 +846,8 @@ header {
 
   .funding-third {
     flex: 0.5;
-    border-top: 1px solid red;
     padding: 10px 15px;
-    background-color: #f6e6e5;
+    background-color: ;
   }
 
   .funding-third img {
@@ -890,6 +930,11 @@ header {
   .small-text {
     font-size: 13px;
     color: #b8b6b2;
+  }
+
+
+  .tesla {
+    font-size: 14px;
   }
 
   .img-4 {
@@ -1298,7 +1343,7 @@ header {
 
   .funding-item {
     overflow: hidden;
-    background-color: #f6e6e5;
+    /* background-color: #f6e6e5; */
   }
 
   .fund-1 {
@@ -1319,13 +1364,47 @@ header {
   }
 
   .funding-first {
-    flex: 1;
-    padding: 30px 15px;
-    background-color: #da5320;
+    padding: 10px ;
+    background-color: #f42;
   }
 
+
+  .e-box {
+    position: relative;
+  }
+
+  .new-price {
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  .case {
+    margin-right: 5px;
+  }
+
+  .pay{
+    font-size: 12px;
+  }
+
+  .case a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .pay:hover{
+    color: black;
+  }
+
+  .silicon{
+    font-size: 12px;
+    border-top: 1px solid #f6e6e5 ; 
+    padding: 10px;
+  }
+  
   .funding-first img {
-    float: left;
+    position:absolute;
+    top: 5%;
+    z-index: 3;
   }
 
   .funding-second {
@@ -1357,9 +1436,7 @@ header {
 
   .funding-third {
     flex: 0.5;
-    border-top: 1px solid red;
     padding: 10px 15px;
-    background-color: #f6e6e5;
   }
 
   .funding-third img {
