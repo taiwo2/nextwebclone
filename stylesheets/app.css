@@ -22,6 +22,17 @@ header {
     justify-content: space-between;
   }
 
+  .text {
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .insight {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
   .top-first-header img {
     display: block;
   }
@@ -134,20 +145,51 @@ header {
     display: none;
   }
 
+  .e-box{
+    position: relative;
+
+  }
+
   .funding-first {
-    flex: 1;
-    padding: 30px 15px;
-    background-color: #da5320;
+    /* flex: 0.5; */
+   padding: 10px 0 0 20px ;
+    background-color: #f42;
+  }
+  
+  .new-price{
+    text-align: centers;
+    margin: 20%;
   }
 
   .funding-first img {
-    float: left;
+    position: absolute;
+    top :4%;
+    left: 3%;
+    z-index: 3;
+
   }
 
   .funding-second {
-    flex: 1;
-    padding: 10px 15px;
+    flex:;
+    /* padding: 10px 15px; */
     background-color: #f6e6e5;
+  }
+
+  .case {
+    margin-right: 5px;
+  }
+
+  .pay{
+    font-size: 12px;
+  }
+
+  .case a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .pay:hover{
+    color: black;
   }
 
   .funding-second img {
@@ -173,9 +215,8 @@ header {
 
   .funding-third {
     flex: 0.5;
-    border-top: 1px solid red;
+    border-bottom: 1px solid red; */
     padding: 10px 15px;
-    background-color: #f6e6e5;
   }
 
   .funding-third img {
