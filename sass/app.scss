@@ -14,8 +14,67 @@ $primary: #f42;
 $primary-light: #ffebe7;
 $primary-lighter: #fff4f2;
 $yellow: #fc0;
+$font:Poppins, sans-serif;
+$none:none;
+$flex :flex;
+$block:block;
+$content:space-between;
+$m-0:auto 0;
+$border:0.1px solid transparent;
+$pad-10:10px 10px;
+$width-30:30px;
+$grid:grid;
+$grid-1:1fr 1fr 1fr;
+$grey:grey;
+$margin-2:7px 7px;
+$height-1:250px;
+$text:left;
 
-@import 'mixins/all';
-@import 'vendor/all';
-@import 'utils/all';
-@import 'components/all';
+
+@media (max-width: 767px){
+
+body {
+    font-family:$font ;
+  }
+
+  .taiwo {
+    display: $none;
+  }
+  
+  .top-first-header {
+    display: $flex;
+    justify-content: $content;
+  }
+
+  .top-first-header img {
+    display: $block;
+  }
+
+  .svg-pics {
+    display: $flex;
+    margin: $m-0;
+  }
+
+  .svg-pics img {
+    display: $block;
+    border: $border;
+    padding: $pad-10;
+    width: $width-30;
+  }
+
+  .top-second-header {
+    display: $none;
+  }
+  
+  .grid-section1 {
+    display: $grid;
+    grid-template-rows: $grid-1;
+  }
+  
+  .grid1-item {
+    background-color:$grey;
+    margin: $margin-2;
+    height: $height-1;
+    text-align: $text;
+  }
+}

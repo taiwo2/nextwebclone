@@ -9,50 +9,6 @@ header {
 }
 
 @media (max-width: 767px) {
-  body {
-    font-family: Poppins, sans-serif;
-  }
-
-  .taiwo {
-    display: none;
-  }
-
-  .top-first-header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .top-first-header img {
-    display: block;
-  }
-
-  .svg-pics {
-    display: flex;
-    margin: auto 0;
-  }
-
-  .svg-pics img {
-    display: block;
-    border: 0.1px solid transparent;
-    padding: 10px 10px;
-    width: 30px;
-  }
-
-  .top-second-header {
-    display: none;
-  }
-
-  .grid-section1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-
-  .grid1-item {
-    background-color: grey;
-    margin: 7px 7px;
-    height: 250px;
-    text-align: left;
-  }
 
   .img-1 {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../pics/nintendo.png');
